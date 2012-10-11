@@ -10,7 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1daf507e-9d55-470a-a7ec-0f2ceb0fa659" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kpdud.iws" afterPath="$PROJECT_DIR$/kpdud.iws" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kpdud.eml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kpdud.ipr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kpdud.iws" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/kpdud.userlibraries" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/kpdud.iml" afterPath="$PROJECT_DIR$/eID-Framework.iml" />
     </list>
     <ignored path="kpdud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,9 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/eIDFramework.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="29" column="20" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,7 +121,7 @@
       <file leaf-file-name="PaosToHttpProcessor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="53" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.57877815">
+            <state line="54" column="65" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.59713376">
               <folding />
             </state>
           </provider>
@@ -221,94 +223,26 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eID-Framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eID-Framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="kpdud" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -326,7 +260,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="250" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="259" />
@@ -664,7 +598,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="kpdud" />
+      <module name="eID-Framework" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -954,7 +888,7 @@
     <frame x="0" y="22" width="1920" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32466182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32466182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31217483" sideWeight="0.9967949" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.106303416" sideWeight="0.71904266" order="6" side_tool="false" content_ui="tabs" />
@@ -968,7 +902,7 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13995726" sideWeight="0.6815817" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16666667" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1741453" sideWeight="0.6753382" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1741453" sideWeight="0.6815817" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31841832" sideWeight="0.9412393" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.71904266" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1067,114 +1001,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/eid/network/data/TcApiOpenData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="961" selection-end="961" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="26" column="13" selection-start="961" selection-end="961" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/network/http/HttpClientMessageStreamProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="45" selection-start="1243" selection-end="1275" vertical-scroll-proportion="0.08580858">
-          <folding />
-        </state>
+        <state line="36" column="45" selection-start="1243" selection-end="1275" vertical-scroll-proportion="0.08580858" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/network/http/HttpServerStreamMessageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="-0.45874587">
-          <folding />
-        </state>
+        <state line="55" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="-0.45874587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/network/http/NetworkClientHttpHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="55" column="0" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/network/paos/PaosMessageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="30" selection-start="1189" selection-end="1206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="32" column="30" selection-start="1189" selection-end="1206" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/network/http/HttpMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="59" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.63036305">
-          <folding />
-        </state>
+        <state line="90" column="59" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.63036305" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/network/http/HttpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="24" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.53503186">
-          <folding />
-        </state>
+        <state line="61" column="24" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.53503186" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eid/network/data/TcTokenData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="955" selection-end="955" vertical-scroll-proportion="-0.5143312">
-          <folding />
-        </state>
+        <state line="26" column="13" selection-start="955" selection-end="955" vertical-scroll-proportion="-0.5143312" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eid/core/eIDProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="13" selection-start="1775" selection-end="1775" vertical-scroll-proportion="-9.101713">
-          <folding />
-        </state>
+        <state line="54" column="13" selection-start="1775" selection-end="1775" vertical-scroll-proportion="-9.101713" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eid/core/eIDClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="19" selection-start="7445" selection-end="7445" vertical-scroll-proportion="0.64668095">
-          <folding />
-        </state>
+        <state line="215" column="19" selection-start="7445" selection-end="7445" vertical-scroll-proportion="0.64668095" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/network/transport/NormalClientSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.19271949">
-          <folding />
-        </state>
+        <state line="28" column="13" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.19271949" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eid/core/tests/eIDClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="98" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.45382166">
-          <folding />
-        </state>
+        <state line="32" column="98" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.45382166" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/network/transport/PskTlsClientSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="25" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.74044585">
-          <folding />
-        </state>
+        <state line="51" column="25" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.74044585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eIDFramework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="20" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="29" column="20" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="53" selection-start="2066" selection-end="2066" vertical-scroll-proportion="0.57877815">
+        <state line="54" column="65" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.59713376">
           <folding />
         </state>
       </provider>
@@ -1185,7 +1087,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>kpdud:jar</last-edited>
+          <last-edited>eID-Framework:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1245,7 +1147,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>kpdud</last-edited>
+          <last-edited>eID-Framework</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

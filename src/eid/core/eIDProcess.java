@@ -289,7 +289,8 @@ public class eIDProcess extends Thread implements IStateContext {
                 Logger.log("Could not establish tls socket connection to eID server");
                 return false;
             }
-            paosConnection_ = new PAOSConnection(pskTlsSocket, tcToken_.getSessionIdentifier(), ptp,resourcePath);
+            paosConnection_ = new PAOSConnection(pskTlsSocket, tcToken_.getSessionIdentifier(),
+                    hostAddress+":"+port,resourcePath);
             setNextState(new StartPaosState());
             return true;
         }

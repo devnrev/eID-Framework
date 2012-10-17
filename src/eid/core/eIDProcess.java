@@ -278,11 +278,17 @@ public class eIDProcess extends Thread implements IStateContext {
             }
 
             String hostAddress = match.group(3);
-            int port = Integer.parseInt(match.group(5));
+            String portString =  match.group(5);
+            int port = 80;
+            if(!portString.isEmpty()){
+                port = Integer.parseInt(portString);
+            }
             String resourcePath =  match.group(6);
             if(resourcePath.isEmpty()){
                 resourcePath="/";
             }
+
+
             try {
                 pskTlsSocket.connect(hostAddress,port);
             } catch (Exception e) {

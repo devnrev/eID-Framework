@@ -26,6 +26,10 @@ import org.bouncycastle.crypto.prng.VMPCRandomGenerator;
  * Time: 11:42
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IRandomNumGen
+ */
 public class CRandomNumGenBC extends CAdapterObj<VMPCRandomGenerator> implements IRandomNumGen{
 
     public CRandomNumGenBC(VMPCRandomGenerator obj){

@@ -23,6 +23,10 @@ import java.math.BigInteger;
  * Time: 12:09
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Several globally used constants related to cryptographic operations
+ */
 public class CryptoTypes {
     public static enum EBlockMode{
         CBC

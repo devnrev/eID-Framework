@@ -25,6 +25,10 @@ import org.bouncycastle.math.ec.ECFieldElement;
  * Time: 15:47
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IECFieldElement
+ */
 public class CECFielElementBC extends CAdapterObj<ECFieldElement> implements IECFieldElement{
     public CECFielElementBC(ECFieldElement obj){
         m_adaptedObject = obj;

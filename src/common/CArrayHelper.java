@@ -23,8 +23,17 @@ import java.lang.reflect.Array;
  * Time: 13:54
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Helper class containing methods for arrays
+ */
 public class CArrayHelper {
 
+    /**
+     * Concatenate several byte arrays
+     * @param byaArrays  Byte arrays
+     * @return Concatenated byte array
+     */
     public static byte[] concatArrays(byte[]... byaArrays) {
         int nLen = 0;
         for(byte[] byaArr : byaArrays){

@@ -25,6 +25,10 @@ import org.bouncycastle.math.ec.ECCurve;
  * Time: 16:48
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IECCurve
+ */
 public class CECCurveBC extends CAdapterObj<ECCurve> implements IECCurve{
     public CECCurveBC(ECCurve obj){
         m_adaptedObject = obj;

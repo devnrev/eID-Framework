@@ -23,6 +23,10 @@ import java.math.BigInteger;
  * Time: 16:40
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining X9 elliptic curve parameters
+ */
 public interface IX9ECParameters{
     IECPoint getG();
     BigInteger getN();

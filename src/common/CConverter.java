@@ -32,6 +32,10 @@ import java.util.BitSet;
  * Time: 15:52
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * This class provides several conversion methods
+ */
 public class CConverter {
 
     /* Pace ECPoint format taken from BSI worked example
@@ -41,6 +45,12 @@ public class CConverter {
      * bytes[(L/2)+1 ... L] == y coordinate of the ECPoint
      */
 
+    /**
+     * Extract EC Point from a byte array
+     * @param byaValue Byte array
+     * @param curve Elliptic curve
+     * @return EC Point
+     */
     public static IECPointFP getECPointFPFromByteArray(byte[] byaValue, IECCurveFP curve){
         if(byaValue[0] != 0x04){
             byaValue = CArrayHelper.concatArrays(new byte[]{0x04},byaValue);
@@ -61,7 +71,11 @@ public class CConverter {
     }
 
 
-    //Convert BigInteger to byte array with no leading 0
+    /**
+     * Convert BigInteger to byte array with no leading 0
+     * @param nVal BigInteger
+     * @return BigInteger as byte array
+     */
     public static byte[] convertBigIntegerToByteArray(BigInteger nVal){
         byte[] byaVal = nVal.toByteArray();
         byte[] byaRet = byaVal;
@@ -72,6 +86,12 @@ public class CConverter {
         return byaRet;
     }
 
+    /**
+     * Extract little endian integer from byte array
+     * @param data Byte array
+     * @return Little endian integer
+     * @throws ConverterException
+     */
     public static int convertByteArrayToIntLittleEndian(byte[] data) throws ConverterException {
         if(data.length < 5){
             int num=0;
@@ -83,6 +103,12 @@ public class CConverter {
         throw new ConverterException("could not convert byte array to int");
     }
 
+    /**
+     * Extrac big endian integer from byte array
+     * @param data Byte array
+     * @return Big endian integer
+     * @throws ConverterException
+     */
     public static int convertByteArrayToIntBigEndian(byte[] data) throws ConverterException {
         if(data.length < 5){
             int num=0;
@@ -94,6 +120,11 @@ public class CConverter {
         throw new ConverterException("could not convert byte array to int");
     }
 
+    /**
+     * Convert a byte array to a Java BitSet
+     * @param data Byte array
+     * @return BitSet
+     */
     public static BitSet convertByteArrayToBitSet(byte[] data){
         BitSet bits = new BitSet();
         for (int i = 0; i < data.length * 8; i++) {

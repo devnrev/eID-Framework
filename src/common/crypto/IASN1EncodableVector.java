@@ -23,6 +23,10 @@ package common.crypto;
  * Time: 11:31
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an ASN1 encodable vector
+ */
 public interface IASN1EncodableVector {
     void add(IDEREncodable obj);
     IDERTaggedObject getTaggeObjectAt(int nIndex);

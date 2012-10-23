@@ -23,6 +23,10 @@ import java.math.BigInteger;
  * Time: 11:21
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an elliptic curve in FP
+ */
 public interface IECCurveFP extends IECCurve{
     BigInteger getQ();
     IECPoint decodePoint(byte[] data);

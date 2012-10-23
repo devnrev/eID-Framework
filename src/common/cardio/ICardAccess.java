@@ -25,6 +25,10 @@ import java.util.List;
  * Time: 22:50
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface describing methods to interact with a smart card or terminal
+ */
 public interface ICardAccess {
     boolean connect();
     void disconnect();

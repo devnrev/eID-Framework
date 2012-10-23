@@ -28,6 +28,10 @@ import java.util.Arrays;
  * Time: 23:34
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Unit test for the CMAC implementation. Several input data vectors are tested.
+ */
 public class CCryptoCMacBCTest extends TestCase {
 
     public void testCalculate_128() throws Exception {

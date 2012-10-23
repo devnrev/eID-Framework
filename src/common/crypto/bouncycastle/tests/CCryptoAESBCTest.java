@@ -28,6 +28,10 @@ import java.util.Arrays;
  * Time: 22:26
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Unit test for the AES implementation. Key length of 128 and 256 bit is tested
+ */
 public class CCryptoAESBCTest extends TestCase {
 
 

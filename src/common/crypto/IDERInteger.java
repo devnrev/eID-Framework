@@ -23,6 +23,10 @@ import java.math.BigInteger;
  * Time: 21:28
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an an DER encoded integer
+ */
 public interface IDERInteger extends IDEREncodable {
     BigInteger getValue();
 }

@@ -23,6 +23,10 @@ import java.math.BigInteger;
  * Time: 11:54
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface describing methods a ECDSA signer and verifier class should implement
+ */
 public interface IEcdsaSigner {
     void initialize(String szCurveName,CryptoTypes.ESHAMode shaMode);
     EcdsaSignature sign(byte[] byaMessage, BigInteger nSecretKey);

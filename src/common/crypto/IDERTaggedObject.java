@@ -23,6 +23,10 @@ import java.io.IOException;
  * Time: 11:31
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an DER encoded tagged object
+ */
 public interface IDERTaggedObject extends IDEREncodable {
 
     byte[] getEncoded() throws IOException;

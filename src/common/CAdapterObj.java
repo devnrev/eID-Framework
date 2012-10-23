@@ -21,17 +21,34 @@ package common;
  * Time: 11:43
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Class which represents an abstract adapter for an  object of any type
+ * @param <T> Classtype of the adaptee
+ */
 public class CAdapterObj<T> implements IAdapter{
     protected T m_adaptedObject;
 
+    /**
+     * Constructor
+     */
     public CAdapterObj(){
 
     }
 
+    /**
+     * Constructor
+     * @param obj Object to assign
+     */
     public CAdapterObj(T obj){
         m_adaptedObject = obj;
     }
 
+
+    /**
+     * Get the adaptee object
+     * @return Adaptee object
+     */
     @Override
     public T getObject(){
         return m_adaptedObject;

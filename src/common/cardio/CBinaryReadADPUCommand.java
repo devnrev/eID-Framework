@@ -21,6 +21,10 @@ package common.cardio;
  * Time: 23:39
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * APDU Command for reading binary data from the card
+ */
 public class CBinaryReadADPUCommand extends CAPDUCommand {
 
     public CBinaryReadADPUCommand(short offset, byte length){

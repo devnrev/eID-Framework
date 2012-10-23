@@ -24,6 +24,11 @@ import org.bouncycastle.asn1.DEROctetString;
  * Time: 23:42
  * To change this template use File | Settings | File Templates.
  */
+
+
+/**
+ * BouncyCastle adapter for IDEROctedString
+ */
 public class CDEROctetStringBC extends CDERObjectBC<DEROctetString> implements IDEROctedString{
 
     public CDEROctetStringBC(DEROctetString obj){

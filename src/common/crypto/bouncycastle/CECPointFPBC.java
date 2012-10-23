@@ -32,6 +32,10 @@ import java.math.BigInteger;
  * Time: 15:21
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IECPointFP
+ */
 public class CECPointFPBC extends CECPointBC implements IECPointFP{
     public CECPointFPBC(ECPoint.Fp point){
         super(point);

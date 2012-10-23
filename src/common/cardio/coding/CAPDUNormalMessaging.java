@@ -27,6 +27,10 @@ import java.nio.ByteBuffer;
  * Time: 23:33
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * This class implements the normal APDU message en- and decoding used for normal APDU communication
+ */
 public class CAPDUNormalMessaging implements IAPDUMessageCoding {
 
     @Override

@@ -26,6 +26,10 @@ import java.math.BigInteger;
  * Time: 15:49
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IECFieldElementFP
+ */
 public class CECFieldElementFPBC extends CECFielElementBC implements IECFieldElementFP{
     public CECFieldElementFPBC(ECFieldElement.Fp obj){
         super(obj);

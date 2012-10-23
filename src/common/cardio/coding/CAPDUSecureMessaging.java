@@ -36,6 +36,11 @@ import java.util.Arrays;
  * Time: 16:55
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * This class provides the secure message coding for APDU messages. It needs to be initialized with two keys.
+ * One used to en- and decrypt the message and a second one to calculate the MAC of the message
+ */
 public class CAPDUSecureMessaging implements IAPDUMessageCoding {
     private byte[] m_byaKMac;
     private byte[] m_byaKEnc;

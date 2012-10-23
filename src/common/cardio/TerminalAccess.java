@@ -29,11 +29,18 @@ import java.util.concurrent.locks.ReentrantLock;
  * Date: 27.07.12
  * Time: 11:12
  */
+
+/**
+ * This class uses smart card io get information about connected terminals and smart cards.
+ * It uses a background thread to detect newly connected terminals and cards
+ */
 public class TerminalAccess implements ITerminalAccess, Runnable {
     private CardTerminals terminals_;
     private Map<String, CardTerminal> connectionMap_;
     private Thread terminalThread_;
     private Object lock = new Object();
+    private final int SLEEPTIME_NO_TERMINAL_CONNECTED = 2000;
+    private final int SLEEPTIME_TERMINAL_CONNECTED = 10000;
 
     public TerminalAccess() {
         terminals_ = TerminalFactory.getDefault().terminals();
@@ -136,14 +143,14 @@ public class TerminalAccess implements ITerminalAccess, Runnable {
                 List<CardTerminal> terminalList = terminals_.list();
                 if (terminals_.list().size() > 0) {
                     updateTerminals(terminalList);
-                    Thread.sleep(10000);
+                    Thread.sleep(SLEEPTIME_TERMINAL_CONNECTED);
                 } else {
                     if (connectionMap_.size() > 0) {
                         synchronized (lock) {
                             connectionMap_.clear();
                         }
                     }
-                    Thread.sleep(2000);
+                    Thread.sleep(SLEEPTIME_NO_TERMINAL_CONNECTED);
                 }
             } catch (InterruptedException e) {
                 return;

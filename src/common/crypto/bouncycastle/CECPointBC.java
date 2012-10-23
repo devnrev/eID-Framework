@@ -28,6 +28,10 @@ import java.math.BigInteger;
  * Time: 14:42
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IECPoint
+ */
 public class CECPointBC extends CAdapterObj<ECPoint> implements IECPoint{
 
     public CECPointBC(){

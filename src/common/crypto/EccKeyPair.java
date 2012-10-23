@@ -24,6 +24,9 @@ import java.math.BigInteger;
  * To change this template use File | Settings | File Templates.
  */
 
+/**
+ * Value class representing a ECC key pair
+  */
 public class EccKeyPair{
     private IECPointFP m_publicKey;
     private BigInteger m_secretKey;

@@ -31,6 +31,10 @@ import java.math.BigInteger;
  * Time: 16:44
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IX9ECParameters
+ */
 public class CX9ECParametersBC extends CAdapterObj<X9ECParameters> implements IX9ECParameters{
 
     public CX9ECParametersBC(X9ECParameters obj){

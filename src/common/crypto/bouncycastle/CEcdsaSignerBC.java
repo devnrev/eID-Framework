@@ -34,6 +34,10 @@ import java.math.BigInteger;
  * Time: 12:03
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Class which can sign a message with ECDSA and verify also its signature. BouncyCastle crypto provider implementation
+ */
 public class CEcdsaSignerBC implements IEcdsaSigner {
     private ECDSASigner m_signer;
     private ECDomainParameters m_eccParameter;

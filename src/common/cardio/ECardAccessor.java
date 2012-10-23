@@ -21,6 +21,10 @@ package common.cardio;
  * Time: 00:13
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Enum describing available card access providers
+ */
 public enum ECardAccessor {
     SmartIO
 }

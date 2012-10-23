@@ -26,6 +26,10 @@ import java.math.BigInteger;
  * Time: 11:47
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IDERInteger
+ */
 public class CDERIntegerBC extends CDERObjectBC<DERInteger> implements IDERInteger{
 
     public CDERIntegerBC(DERInteger obj){

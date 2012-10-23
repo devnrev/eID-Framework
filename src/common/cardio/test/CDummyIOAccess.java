@@ -29,6 +29,10 @@ import java.util.List;
  * Time: 11:30
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Simple dummy class of a card accessor for testing purpose
+ */
 public class CDummyIOAccess implements ICardAccess {
 
     @Override

@@ -29,6 +29,10 @@ import org.bouncycastle.crypto.params.ParametersWithIV;
  * Time: 11:55
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Class which performs AES symmetric en- and decryption using the BouncyCastle crypto provider
+ */
 public class CCryptoAESBC implements ISymmetricBlockCipher {
     private BlockCipher m_blockCipher;
     private ParametersWithIV m_keyParam;

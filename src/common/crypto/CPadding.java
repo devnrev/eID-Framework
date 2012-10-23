@@ -23,10 +23,20 @@ import java.util.Arrays;
  * Time: 16:46
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * This class provides methods to add and remove padding from a message.
+ */
 public class CPadding {
 
     private static final byte s_bySecMsgContentIdentifier = (byte)0x80;
 
+    /**
+     * Applay secure message padding to the given data
+     * @param byaData Data to pad
+     * @param nBlockSize Symmetric cipher blocksize
+     * @return Padded data
+     */
     public static byte[] applySecMsgPadding(byte[] byaData,int nBlockSize){
         int nLength = byaData.length;
         int nNumOfPadBytes;
@@ -47,6 +57,11 @@ public class CPadding {
         return byaRet;
     }
 
+    /**
+     * Remove padding from the given data
+     * @param byaData Input data
+     * @return Data without padding
+     */
     public static byte[] removeSecMsgPadding(byte[] byaData) {
         if(byaData == null )
             return null;

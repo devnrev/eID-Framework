@@ -24,6 +24,10 @@ import java.math.BigInteger;
  * Time: 11:30
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface for a crypto provider which is used by the framework
+ */
 public interface ICryptoProvider {
     
     IDERTaggedObject createDERTaggetObject(boolean explicit,int tagNo,IDEREncodable object);

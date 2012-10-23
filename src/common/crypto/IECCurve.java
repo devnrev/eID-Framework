@@ -21,5 +21,9 @@ package common.crypto;
  * Time: 16:17
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an elliptic curve
+ */
 public interface IECCurve {
 }

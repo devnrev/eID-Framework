@@ -23,6 +23,10 @@ import java.math.BigInteger;
  * Time: 15:20
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an elliptic curve point in FP
+ */
 public interface IECPointFP extends IECPoint {
     IECPointFP multiply(BigInteger nVal);
 }

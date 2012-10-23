@@ -20,6 +20,10 @@ package common.cardio;
  * Date: 27.07.12
  * Time: 15:34
  */
+
+/**
+ * This class defines a basic structure for terminal control commands
+ */
 public class ControlCommand {
     protected int controlCode_;
     protected byte[] control_;

@@ -25,6 +25,10 @@ import javax.smartcardio.*;
  * Date: 27.07.12
  * Time: 14:03
  */
+
+/**
+ * Card accessor which provides methods to send APDU and terminal commands
+ */
 public class CardAccess implements ICardAccess {
     private CardTerminal terminal_;
     private Card card_;

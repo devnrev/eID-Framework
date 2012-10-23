@@ -26,6 +26,10 @@ import java.io.IOException;
  * Time: 12:02
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IDERObjectIdentifier
+ */
 public class CDERObjectIdentifierBC extends CDERObjectBC<DERObjectIdentifier> implements IDERObjectIdentifier{
 
     public CDERObjectIdentifierBC(DERObjectIdentifier obj){

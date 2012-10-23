@@ -27,7 +27,16 @@ import java.util.Arrays;
  * Time: 16:54
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Unit test for the check the implemented padding methods.
+ */
 public class CPaddingTest extends TestCase {
+
+    /**
+     * Test secure message padding
+     * @throws Exception
+     */
     public void testApplySecMsgPadding() throws Exception {
         int nBlockSize = 8;
         byte[] byaTestVec1 = DatatypeConverter.parseHexBinary("11223344");

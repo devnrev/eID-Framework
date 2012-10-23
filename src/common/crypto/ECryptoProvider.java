@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 00:11
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * List of available crypto providers
+ */
 public enum ECryptoProvider {
     BouncyCastle
 }

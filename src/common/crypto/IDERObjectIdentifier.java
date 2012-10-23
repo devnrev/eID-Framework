@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 11:55
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an DER encoded object identifier
+ */
 public interface IDERObjectIdentifier extends IDEREncodable {
     String getId();
 }

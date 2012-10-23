@@ -29,6 +29,11 @@ import java.io.IOException;
  * Time: 11:23
  * To change this template use File | Settings | File Templates.
  */
+
+
+/**
+ * BouncyCastle adapter for IDERApplicationSpecific
+ */
 public class CDERApplicationSpecificBC extends CDERObjectBC<DERApplicationSpecific> implements IDERApplicationSpecific{
 
     public CDERApplicationSpecificBC(DERApplicationSpecific obj){

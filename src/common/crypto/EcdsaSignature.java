@@ -23,6 +23,10 @@ import java.math.BigInteger;
  * Time: 12:18
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Value class representing a ECDSA signature
+ */
 public class EcdsaSignature {
     private BigInteger m_nR;
     private BigInteger m_nS;    

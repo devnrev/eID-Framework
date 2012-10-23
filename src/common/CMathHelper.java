@@ -21,12 +21,25 @@ package common;
  * Time: 18:40
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Math utility class which contains several helper methods
+ */
 public class CMathHelper {
 
+    /**
+     * Increment a number which is represented as a byte array
+     * @param A Number as byte array
+     */
     public static void increment(byte[] A) {
         incrementAtIndex(A,15);
     }
-    
+
+    /**
+     * Increment element in array at the given index
+     * @param array Byte array
+     * @param index Index
+     */
     private static void incrementAtIndex(byte[] array, int index) {
         if (array[index] == 0xFF) {
             array[index] = 0;

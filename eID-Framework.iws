@@ -10,8 +10,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1daf507e-9d55-470a-a7ec-0f2ceb0fa659" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/common/cardio/TerminalAccessTest.java" afterPath="$PROJECT_DIR$/src/common/cardio/test/TerminalAccessTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eID-Framework.iws" afterPath="$PROJECT_DIR$/eID-Framework.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/eid/core/eIDProcess.java" afterPath="$PROJECT_DIR$/src/eid/core/eIDProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CAdapterObj.java" afterPath="$PROJECT_DIR$/src/common/CAdapterObj.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CArrayHelper.java" afterPath="$PROJECT_DIR$/src/common/CArrayHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CConverter.java" afterPath="$PROJECT_DIR$/src/common/CConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CFactory.java" afterPath="$PROJECT_DIR$/src/common/CFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CFactoryHelper.java" afterPath="$PROJECT_DIR$/src/common/CFactoryHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CMathHelper.java" afterPath="$PROJECT_DIR$/src/common/CMathHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/Globals.java" afterPath="$PROJECT_DIR$/src/common/Globals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/IAdapter.java" afterPath="$PROJECT_DIR$/src/common/IAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CAPDUCommand.java" afterPath="$PROJECT_DIR$/src/common/cardio/CAPDUCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CAPDUResponse.java" afterPath="$PROJECT_DIR$/src/common/cardio/CAPDUResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CBinaryReadADPUCommand.java" afterPath="$PROJECT_DIR$/src/common/cardio/CBinaryReadADPUCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CCardCommands.java" afterPath="$PROJECT_DIR$/src/common/cardio/CCardCommands.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CardAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/CardAccess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/ControlCommand.java" afterPath="$PROJECT_DIR$/src/common/cardio/ControlCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/ECardAccessor.java" afterPath="$PROJECT_DIR$/src/common/cardio/ECardAccessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/IAPDUMessageCoding.java" afterPath="$PROJECT_DIR$/src/common/cardio/IAPDUMessageCoding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/ICardAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/ICardAccess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/ITerminalAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/ITerminalAccess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/Terminal.java" afterPath="$PROJECT_DIR$/src/common/cardio/Terminal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/TerminalAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/TerminalAccess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/coding/CAPDUNormalMessaging.java" afterPath="$PROJECT_DIR$/src/common/cardio/coding/CAPDUNormalMessaging.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/coding/CAPDUSecureMessaging.java" afterPath="$PROJECT_DIR$/src/common/cardio/coding/CAPDUSecureMessaging.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/coding/test/CAPDUSecureMessagingTest.java" afterPath="$PROJECT_DIR$/src/common/cardio/coding/test/CAPDUSecureMessagingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/test/CDummyIOAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/test/CDummyIOAccess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/CPadding.java" afterPath="$PROJECT_DIR$/src/common/crypto/CPadding.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/CryptoTypes.java" afterPath="$PROJECT_DIR$/src/common/crypto/CryptoTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ECryptoProvider.java" afterPath="$PROJECT_DIR$/src/common/crypto/ECryptoProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/EccKeyPair.java" afterPath="$PROJECT_DIR$/src/common/crypto/EccKeyPair.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/EcdsaSignature.java" afterPath="$PROJECT_DIR$/src/common/crypto/EcdsaSignature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IASN1EncodableVector.java" afterPath="$PROJECT_DIR$/src/common/crypto/IASN1EncodableVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ICryptoProvider.java" afterPath="$PROJECT_DIR$/src/common/crypto/ICryptoProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ICryptoSHA.java" afterPath="$PROJECT_DIR$/src/common/crypto/ICryptoSHA.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERApplicationSpecific.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERApplicationSpecific.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDEREncodable.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDEREncodable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERInteger.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERInteger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERObjectIdentifier.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERObjectIdentifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDEROctedString.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDEROctedString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERSequence.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERSequence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERSet.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERTaggedObject.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERTaggedObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECCurve.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECCurve.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECCurveFP.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECCurveFP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECFieldElement.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECFieldElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECPoint.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECPoint.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECPointFP.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECPointFP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IEccKeyGenerator.java" afterPath="$PROJECT_DIR$/src/common/crypto/IEccKeyGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java" afterPath="$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java" afterPath="$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java" afterPath="$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java" afterPath="$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java" afterPath="$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CASN1EncodableVectorBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CASN1EncodableVectorBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CBouncyCryptoProvider.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CBouncyCryptoProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoAESBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoAESBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoCMacBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoCMacBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoSHABC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoSHABC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERApplicationSpecificBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERApplicationSpecificBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERIntegerBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERIntegerBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERObjectBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERObjectBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERObjectIdentifierBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERObjectIdentifierBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDEROctetStringBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDEROctetStringBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERSequenceBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERSequenceBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERSetBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERSetBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERTaggedObjectBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERTaggedObjectBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECCurveBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECCurveBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECCurveFPBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECCurveFPBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECFielElementBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECFielElementBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECFieldElementFPBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECFieldElementFPBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECPointBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECPointBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECPointFPBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECPointFPBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CEccKeyGeneratorBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CEccKeyGeneratorBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CEcdsaSignerBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CEcdsaSignerBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CRandomNumGenBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CRandomNumGenBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CX9ECParametersBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CX9ECParametersBC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoAESBCTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoAESBCTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoCMacBCTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoCMacBCTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoSHABCTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoSHABCTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CEcdsaSignerBCTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CEcdsaSignerBCTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/test/CPaddingTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/test/CPaddingTest.java" />
     </list>
     <ignored path="kpdud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +115,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/common/cardio/CAPDUResponse.java" line="66" class="common.cardio.CAPDUResponse" package="common.cardio">
+      <breakpoint url="file://$PROJECT_DIR$/src/common/cardio/CAPDUResponse.java" line="70" class="common.cardio.CAPDUResponse" package="common.cardio">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -96,8 +176,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -106,55 +186,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="eIDFramework.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eIDFramework.java">
+      <file leaf-file-name="IECCurveFP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECCurveFP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="957" selection-end="1010" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaosToHttpProcessor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java">
+      <file leaf-file-name="IEcdsaSigner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="24" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.0">
+            <state line="27" column="82" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PskTlsClientSocket.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/network/transport/PskTlsClientSocket.java">
+      <file leaf-file-name="IECFieldElementFP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="25" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="934" selection-end="1001" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eIDProcess.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/eid/core/eIDProcess.java">
+      <file leaf-file-name="IECPoint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="271" column="58" selection-start="10203" selection-end="10203" vertical-scroll-proportion="0.40996784">
+            <state line="26" column="0" selection-start="955" selection-end="1008" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PAOSConnection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/network/paos/PAOSConnection.java">
+      <file leaf-file-name="IECPointFP.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECPointFP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="58" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0">
+            <state line="27" column="51" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PaosHttpRequestBuilder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eid/network/messages/PaosHttpRequestBuilder.java">
+      <file leaf-file-name="IRandomNumGen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="11" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0">
+            <state line="25" column="78" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISymmetricBlockCipher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="938" selection-end="1019" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISymmetricMAC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="64" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IX9ECParameters.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="29" selection-start="995" selection-end="995" vertical-scroll-proportion="0.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IECFieldElement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECFieldElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="932" selection-end="993" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,22 +297,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/common/cardio/TerminalAccess.java" />
-        <option value="$PROJECT_DIR$/src/eid/network/handler/NetworkClientHttpHandlerNoContext.java" />
-        <option value="$PROJECT_DIR$/src/common/network/http/NetworkClientHttpHandlerNoContext.java" />
-        <option value="$PROJECT_DIR$/src/common/network/transport/NetworkHttpServer.java" />
-        <option value="$PROJECT_DIR$/src/common/network/http/HttpClientMessageStreamProcessor.java" />
-        <option value="$PROJECT_DIR$/src/common/network/http/NetworkClientHttpHandler.java" />
-        <option value="$PROJECT_DIR$/src/eid/network/handler/TcApiOpenHandler.java" />
-        <option value="$PROJECT_DIR$/src/eid/network/messages/parser/TransmitMessageParser.java" />
-        <option value="$PROJECT_DIR$/src/eid/network/messages/parser/TcApiOpenMessageParser.java" />
-        <option value="$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java" />
-        <option value="$PROJECT_DIR$/src/common/network/paos/PaosToHttpServerProcessor.java" />
-        <option value="$PROJECT_DIR$/src/eid/core/eIDClient.java" />
-        <option value="$PROJECT_DIR$/src/common/network/transport/PskTlsClientSocket.java" />
-        <option value="$PROJECT_DIR$/src/eid/core/tests/eIDClientTest.java" />
-        <option value="$PROJECT_DIR$/src/eIDFramework.java" />
-        <option value="$PROJECT_DIR$/src/eid/core/eIDProcess.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IDEROctedString.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IDERSequence.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IDERSet.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IDERTaggedObject.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IEccKeyGenerator.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IECCurve.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IECCurveFP.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IECFieldElement.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IECPoint.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IECPointFP.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java" />
+        <option value="$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java" />
       </list>
     </option>
   </component>
@@ -256,6 +372,26 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eID-Framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -306,7 +442,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eid" />
+              <option name="myItemId" value="libeac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,10 +463,6 @@
               <option name="myItemId" value="eid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -340,66 +476,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eID-Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eID-Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eID-Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eID-Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="transport" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kpdud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -408,16 +484,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="250" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="259" />
-    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="250" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="259" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="256" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="263" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1055" />
@@ -432,8 +508,8 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -441,8 +517,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -475,65 +551,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="EFCardSecurityTest.testBase" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="kpdud" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="libeac.tests" />
-      <option name="MAIN_CLASS_NAME" value="libeac.tests.EFCardSecurityTest" />
-      <option name="METHOD_NAME" value="testBase" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="HttpListenerTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="kpdud" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="common.network.http.tests" />
-      <option name="MAIN_CLASS_NAME" value="common.network.http.tests.HttpListenerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="TerminalAccessTest.testTerminalAccess" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="kpdud" />
+      <module name="eID-Framework" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="common.cardio" />
-      <option name="MAIN_CLASS_NAME" value="common.cardio.TerminalAccessTest" />
+      <option name="PACKAGE_NAME" value="common.cardio.test" />
+      <option name="MAIN_CLASS_NAME" value="common.cardio.test.TerminalAccessTest" />
       <option name="METHOD_NAME" value="testTerminalAccess" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -614,6 +638,56 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="CEcdsaSignerBCTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="eID-Framework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="common.crypto.bouncycastle.tests" />
+      <option name="MAIN_CLASS_NAME" value="common.crypto.bouncycastle.tests.CEcdsaSignerBCTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CPaddingTest.testApplySecMsgPadding" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="eID-Framework" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="common.crypto.test" />
+      <option name="MAIN_CLASS_NAME" value="common.crypto.test.CPaddingTest" />
+      <option name="METHOD_NAME" value="testApplySecMsgPadding" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -634,24 +708,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -681,6 +737,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -758,12 +832,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.EFCardSecurityTest.testBase" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HttpListenerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TerminalAccessTest.testTerminalAccess" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.eIDClientTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PaceCapabilityCommandTest.testMethod" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TerminalAccessTest.testTerminalAccess" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.eIDClientTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PaceCapabilityCommandTest.testMethod" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CEcdsaSignerBCTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CPaddingTest.testApplySecMsgPadding" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1012,7 +1086,11 @@
       <created>1350489268097</created>
       <updated>1350489268097</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="- HTTP host attribute now correctly set">
+      <created>1350492151659</created>
+      <updated>1350492151659</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1062,7 +1140,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37065637" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37044746" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39875388" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1150,84 +1228,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/network/http/HttpServerStreamMessageProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IDEROctedString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="2078" selection-end="2078" vertical-scroll-proportion="-0.45874587" />
+        <state line="24" column="0" selection-start="932" selection-end="989" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/network/http/NetworkClientHttpHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IDERSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.0" />
+        <state line="25" column="60" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/network/paos/PaosMessageParser.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IDERSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="30" selection-start="1189" selection-end="1206" vertical-scroll-proportion="0.0" />
+        <state line="25" column="40" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/network/http/HttpMessage.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IDERTaggedObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="59" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.63036305" />
+        <state line="27" column="50" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/network/http/HttpRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IEccKeyGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="24" selection-start="1734" selection-end="1734" vertical-scroll-proportion="0.53503186" />
+        <state line="25" column="45" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eid/network/data/TcTokenData.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECCurve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="955" selection-end="955" vertical-scroll-proportion="-0.5143312" />
+        <state line="24" column="0" selection-start="925" selection-end="972" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eid/core/eIDClient.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECCurveFP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="19" selection-start="7445" selection-end="7445" vertical-scroll-proportion="0.64668095" />
+        <state line="26" column="0" selection-start="957" selection-end="1010" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/network/transport/NormalClientSocket.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.19271949" />
+        <state line="27" column="82" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eid/core/tests/eIDClientTest.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECFieldElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="98" selection-start="1244" selection-end="1244" vertical-scroll-proportion="0.45382166" />
+        <state line="24" column="0" selection-start="932" selection-end="993" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="24" column="0" selection-start="934" selection-end="1001" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eIDFramework.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="20" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" />
+        <state line="26" column="0" selection-start="955" selection-end="1008" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECPointFP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="24" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.0" />
+        <state line="27" column="51" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/network/transport/PskTlsClientSocket.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="25" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.0" />
+        <state line="25" column="78" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/network/paos/PAOSConnection.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="58" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" />
+        <state line="24" column="0" selection-start="938" selection-end="1019" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eid/network/messages/PaosHttpRequestBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="11" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0" />
+        <state line="25" column="64" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eid/core/eIDProcess.java">
+    <entry file="file://$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="271" column="58" selection-start="10203" selection-end="10203" vertical-scroll-proportion="0.40996784">
+        <state line="27" column="29" selection-start="995" selection-end="995" vertical-scroll-proportion="0.375">
           <folding />
         </state>
       </provider>

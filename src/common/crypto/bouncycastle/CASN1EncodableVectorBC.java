@@ -28,6 +28,10 @@ import org.bouncycastle.asn1.DERTaggedObject;
  * Time: 11:31
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IASN1EncodableVector
+ */
 public class CASN1EncodableVectorBC implements IASN1EncodableVector {
     private ASN1EncodableVector m_obj;
 

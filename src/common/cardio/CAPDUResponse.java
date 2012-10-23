@@ -23,6 +23,10 @@ import javax.xml.bind.DatatypeConverter;
  * Time: 22:30
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * APDU Response class
+ */
 public class CAPDUResponse{
     private int m_bySWOne;
     private int m_bySWTwo;

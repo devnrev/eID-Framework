@@ -26,6 +26,10 @@ import java.io.IOException;
  * Time: 12:22
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IDERSequence
+ */
 public class CDERSequenceBC extends CDERObjectBC<ASN1Sequence> implements IDERSequence {
 
 

@@ -29,6 +29,10 @@ import java.math.BigInteger;
  * Time: 11:37
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle crypto provider. Creates the relevant objects according to the bouncy castle implementation
+ */
 public class CBouncyCryptoProvider implements ICryptoProvider {
     private IRandomNumGen m_rndNumGen;
 

@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 11:20
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an DER encoded set
+ */
 public interface IDERSet {
     IDERSequence[] getDERSequences();
 }

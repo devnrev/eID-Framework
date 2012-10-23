@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 11:40
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining methods a symmetric block cipher needs to implement
+ */
 public abstract interface ISymmetricBlockCipher {
     public void initialize(byte[] byaIV, byte[] byaKey,CryptoTypes.EBlockMode eMode,CryptoTypes.EKeyLength eKeyLen);
 

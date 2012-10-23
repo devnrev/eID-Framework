@@ -28,6 +28,10 @@ import java.util.Arrays;
  * Time: 23:15
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Unit test for the SHA implementation. Several input data vectors and SHA types are tested.
+ */
 public class CCryptoSHABCTest extends TestCase {
     public void testDigest_SHA1() throws Exception {
         CCryptoSHABC sha = new CCryptoSHABC();

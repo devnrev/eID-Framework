@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 09:55
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * SHA checksum interface
+ */
 public interface ICryptoSHA {
    void initialize(CryptoTypes.ESHAMode eMode);
    byte[] digest(byte[] byaData);

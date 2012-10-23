@@ -24,6 +24,10 @@ import common.crypto.ICryptoProvider;
  * Time: 12:28
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Helper class which provides quick access to factory methods
+ */
 public class CFactoryHelper {
     public static ICryptoProvider getCryptoProvider(){
         return CFactory.getInstance().getCryptoProvider();

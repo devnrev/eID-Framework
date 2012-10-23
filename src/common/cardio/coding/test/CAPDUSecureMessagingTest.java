@@ -30,6 +30,10 @@ import java.util.Arrays;
  * Time: 00:09
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Test class for the secure message coding of APDU messages
+ */
 public class CAPDUSecureMessagingTest extends TestCase {
     private final String szKENC = "68406B4162100563D9C901A6154D2901";
     private final String szKMAC = "73FF268784F72AF833FDC9464049AFC9";

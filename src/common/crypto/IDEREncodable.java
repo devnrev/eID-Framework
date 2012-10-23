@@ -23,6 +23,10 @@ import java.io.IOException;
  * Time: 11:33
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an DER encodable object
+ */
 public interface IDEREncodable {
 
     Object getObject();

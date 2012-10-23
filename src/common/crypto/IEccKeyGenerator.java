@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 17:17
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface which defines methods a ECC key pair generator should implement
+ */
 public interface IEccKeyGenerator {
     void initialize(IX9ECParameters curveSpec) throws Exception;
     EccKeyPair generate();

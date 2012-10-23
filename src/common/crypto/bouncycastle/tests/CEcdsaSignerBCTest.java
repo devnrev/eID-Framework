@@ -32,6 +32,10 @@ import javax.xml.bind.DatatypeConverter;
  * Time: 12:25
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Unit test for the ECDSA implementation. Signature for a message is generated and verified.
+ */
 public class CEcdsaSignerBCTest extends TestCase {
     public void testSign() throws Exception {
         CEcdsaSignerBC signer = new CEcdsaSignerBC();

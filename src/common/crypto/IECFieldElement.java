@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 15:47
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an elliptic curve field element
+ */
 public interface IECFieldElement {
 
 }

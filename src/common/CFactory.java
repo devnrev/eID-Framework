@@ -28,9 +28,17 @@ import common.crypto.bouncycastle.CBouncyCryptoProvider;
  * Time: 12:10
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Factory class to create global used classes
+ */
 public class CFactory {
     private static CFactory ourInstance = new CFactory();
 
+    /**
+     * Get the current instance
+     * @return Instance
+     */
     public static CFactory getInstance() {
         return ourInstance;
     }
@@ -42,7 +50,9 @@ public class CFactory {
     private ICardAccess     m_cardAccess;
 
 
-
+    /**
+     * Constructor
+     */
     private CFactory() {
         m_cryptoProvider = null;
         m_cardAccess = null;
@@ -50,7 +60,10 @@ public class CFactory {
         m_eCardAccessor = ECardAccessor.SmartIO;
     }
 
-
+    /**
+     * Instantiate and return the used crypto provider
+     * @return Crypto provider instance
+     */
     public ICryptoProvider getCryptoProvider() {
         if (m_cryptoProvider == null) {
             switch (m_eCryptoProvider) {

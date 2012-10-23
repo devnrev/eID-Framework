@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 11:42
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining methods which a random number generator should implement
+ */
 public interface IRandomNumGen {
     void nextBytes(byte[] byaData);
 }

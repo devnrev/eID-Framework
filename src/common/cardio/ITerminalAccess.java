@@ -23,6 +23,10 @@ import java.util.List;
  * Date: 27.07.12
  * Time: 11:13
  */
+
+/**
+ * Interface describing methods to get connected terminals and smart cards
+ */
 public interface ITerminalAccess {
     ICardAccess getCardAccessor(String cardId);
     List<Terminal> getTerminals();

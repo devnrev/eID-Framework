@@ -23,6 +23,10 @@ import javax.smartcardio.CardTerminal;
  * Date: 27.07.12
  * Time: 11:19
  */
+
+/**
+ * Basic structure of a terminal
+ */
 public class Terminal{
     private String terminalName_;
     private String terminalId_;

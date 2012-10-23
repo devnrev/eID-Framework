@@ -30,6 +30,10 @@ import java.io.IOException;
  * Time: 11:44
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IDERSet
+ */
 public class CDERSetBC extends CDERObjectBC<ASN1Set> implements IDERSet {
 
     public CDERSetBC(byte[] byaData) throws IOException {

@@ -21,6 +21,10 @@ package common;
  * Time: 12:51
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Definition of global datatypes
+ */
 public class Globals {
     public enum OS{
         WINDOWS,

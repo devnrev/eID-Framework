@@ -21,6 +21,10 @@ package common.cardio;
  * Time: 23:32
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface describing methods needed to encode and decode APDU messages
+ */
 public interface IAPDUMessageCoding {
     byte[] encode(CAPDUCommand cmd);
     CAPDUResponse decode(byte[] byaResp) throws Exception;

@@ -28,6 +28,10 @@ import org.bouncycastle.crypto.params.KeyParameter;
  * Time: 10:08
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Class which performs CMAC authentication with AES using the BouncyCastle crypto provider
+ */
 public class CCryptoCMacBC implements ISymmetricMAC {
     private CMac m_cmac;
     private int m_nKeyLen;

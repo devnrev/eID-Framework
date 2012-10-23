@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 23:41
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an DER encoded octet string
+ */
 public interface IDEROctedString extends IDEREncodable {
     byte[] getOctets();
 }

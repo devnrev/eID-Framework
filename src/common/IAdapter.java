@@ -21,6 +21,10 @@ package common;
  * Time: 15:07
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Adapter interface
+ */
 public interface IAdapter {
     Object getObject();
 }

@@ -27,6 +27,10 @@ import java.nio.ByteBuffer;
  * Time: 20:59
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * APDU Command class
+ */
 public class CAPDUCommand{
     protected int m_byCla;
     protected int m_byIns;

@@ -30,6 +30,10 @@ import java.io.IOException;
  * Time: 20:15
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IDEREncodable. Implements a basic object which supports DER encoding
+ */
 public class CDERObjectBC<T extends ASN1Primitive> extends CAdapterObj<T> implements IDEREncodable {
 
     @Override

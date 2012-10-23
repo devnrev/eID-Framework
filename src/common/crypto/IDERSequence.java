@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 12:20
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an DER encoded sequence of DER objects
+ */
 public interface IDERSequence extends IDEREncodable {
     IDERObjectIdentifier getDERObjectIdentifierAt(int nIndex);
     IDERInteger getDERIntegerAt(int nIndex);

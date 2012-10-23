@@ -12,8 +12,10 @@
  * if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
  */
 
-package common.cardio;
+package common.cardio.test;
 
+import common.cardio.ICardAccess;
+import common.cardio.TerminalAccess;
 import common.util.Logger;
 import junit.framework.TestCase;
 
@@ -24,6 +26,10 @@ import java.util.List;
  * User: Axel
  * Date: 27.07.12
  * Time: 11:47
+ */
+
+/**
+ * Little "test" to see connected cards
  */
 public class TerminalAccessTest extends TestCase {
     public void testTerminalAccess() throws Exception {

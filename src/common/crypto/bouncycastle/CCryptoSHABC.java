@@ -28,6 +28,10 @@ import org.bouncycastle.crypto.digests.SHA512Digest;
  * Time: 09:59
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Class which performs SHA checksum calculation using the BouncyCastle crypto provider
+ */
 public class CCryptoSHABC implements ICryptoSHA{
     private Digest m_digest;
 

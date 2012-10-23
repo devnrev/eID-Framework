@@ -21,6 +21,10 @@ package common.crypto;
  * Time: 10:04
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining methods a symmetric MAC needs to implement
+ */
 public interface ISymmetricMAC {
     void initialize(CryptoTypes.EKeyLength nLen);
     byte[] calculate(byte[] byaKey, byte[] byaData);

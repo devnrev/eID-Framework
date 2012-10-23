@@ -36,6 +36,10 @@ import java.security.*;
  * Time: 17:25
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * ECC keypair generator using the BouncyCastle crypto provider
+ */
 public class CEccKeyGeneratorBC implements IEccKeyGenerator{
     private ECKeyPairGenerator m_keyGen;
 

@@ -26,6 +26,10 @@ import org.bouncycastle.asn1.*;
  * Time: 11:42
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * BouncyCastle adapter for IDERTaggedObject
+ */
 public class CDERTaggedObjectBC extends CDERObjectBC<DERTaggedObject> implements IDERTaggedObject {
 
     public CDERTaggedObjectBC(DERTaggedObject obj){

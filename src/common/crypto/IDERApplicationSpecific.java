@@ -23,6 +23,10 @@ import java.io.IOException;
  * Time: 11:20
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Interface defining an DER encoded application specific data structure
+ */
 public interface IDERApplicationSpecific extends IDEREncodable {
     IDERSequence getDERSequence() throws IOException;
     byte[] getContents();

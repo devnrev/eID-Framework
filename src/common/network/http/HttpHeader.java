@@ -23,6 +23,10 @@ import java.util.*;
  * Date: 21.06.12
  * Time: 11:02
  */
+
+/**
+ * This class represents a HTTP header which contains several attributes
+ */
 public class HttpHeader {
 
     protected Map<String,List<String>> header_;

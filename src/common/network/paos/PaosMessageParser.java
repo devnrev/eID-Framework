@@ -30,6 +30,10 @@ import java.io.IOException;
  * Date: 18.07.12
  * Time: 14:01
  */
+
+/**
+ * PAOS message parser which decodes a byte array into a PAOS request
+ */
 public class PaosMessageParser {
     public static PAOSRequest parseRequest(byte[] data) throws TranscodingException {
         MessageFactory factory = null;
@@ -50,6 +54,7 @@ public class PaosMessageParser {
     }
 
     public static PAOSResponse parseResponse(byte[] data){
+
         return null; //TODO
     }
 }

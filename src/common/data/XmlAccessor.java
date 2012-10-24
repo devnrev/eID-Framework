@@ -38,6 +38,10 @@ import java.util.Map;
  * Date: 18.07.12
  * Time: 12:09
  */
+
+/**
+ * Helper class which provides several functions to access a XML resource.
+ */
 public class XmlAccessor {
     protected Document document_;
     protected Node cursor_;

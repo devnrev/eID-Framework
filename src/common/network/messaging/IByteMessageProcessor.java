@@ -20,6 +20,12 @@ package common.network.messaging;
  * Date: 20.06.12
  * Time: 15:09
  */
+
+/**
+ * Generic interface which defines methods to encode data into a byte array and decode data from a byte array
+ * @param <P> Data type of the outgoing message
+ * @param <R> Data type of the incoming message
+ */
 public interface IByteMessageProcessor<P,R>{
     byte[] encode(P message);
     R decode(byte[] message);

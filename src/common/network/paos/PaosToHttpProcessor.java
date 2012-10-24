@@ -17,6 +17,7 @@ package common.network.paos;
 import common.exceptions.BuildException;
 import common.exceptions.TranscodingException;
 import common.network.http.GenericHttpRequestMessageBuilder;
+import common.network.http.HttpRequest;
 import common.network.http.HttpResponse;
 import common.network.http.HttpServerStreamMessageProcessor;
 import common.network.messaging.IStreamMessageProcessor;
@@ -38,34 +39,47 @@ import java.io.OutputStream;
  * Date: 02.07.12
  * Time: 17:40
  */
+
+/**
+ * HTTP processor which encodes PAOS responses into HTTP requests and decodes HTTP responses into PAOS requests
+ */
 public class PaosToHttpProcessor implements IStreamMessageProcessor<PAOSResponse,PAOSRequest> {
     protected GenericHttpRequestMessageBuilder<IOutputStreamResult> messageBuilder_;
     protected HttpServerStreamMessageProcessor httpMessageProcessor_;
 
-
-
+    /**
+     * Constructor
+     * @param messageBuilder HTTP message builder
+     */
     public PaosToHttpProcessor(GenericHttpRequestMessageBuilder<IOutputStreamResult> messageBuilder){
         messageBuilder_ = messageBuilder;
         httpMessageProcessor_ = new HttpServerStreamMessageProcessor();
     }
 
+    /**
+     * Encode the given PAOS response into a HTTP request and write it to the given OutputStream
+     * @param message PAOS response
+     * @param out OutputStream
+     * @throws TranscodingException
+     */
     @Override
     public void encode(PAOSResponse message, OutputStream out) throws TranscodingException {
         try {
             messageBuilder_.initializeProduct();
             messageBuilder_.buildHeader();
             messageBuilder_.buildBody(message);
-            byte[] bytes = messageBuilder_.getProduct().getBytes();
-            Logger.log(bytes);
-            Logger.log("");
-            out.write(bytes);
+            httpMessageProcessor_.encode( messageBuilder_.getProduct(),out);
         } catch (BuildException e) {
-            throw new TranscodingException("error while building http request\n" + e.getMessage());
-        } catch (IOException e) {
             throw new TranscodingException("error while building http request\n" + e.getMessage());
         }
     }
 
+    /**
+     * Read an InputStream and decode its content into a HTTP response and after that into a PAOS request
+     * @param message
+     * @return
+     * @throws TranscodingException
+     */
     @Override
     public PAOSRequest decode(InputStream message) throws TranscodingException {
         HttpResponse resp = httpMessageProcessor_.decode(message);

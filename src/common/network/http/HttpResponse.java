@@ -20,6 +20,10 @@ package common.network.http;
  * Date: 20.06.12
  * Time: 15:15
  */
+
+/**
+ * This class defines a HTTP response and provides the required attributes
+ */
 public class HttpResponse extends HttpMessage {
     private int status_;
     private String reason_;

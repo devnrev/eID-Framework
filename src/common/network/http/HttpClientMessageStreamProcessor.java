@@ -34,7 +34,19 @@ import java.util.List;
  * Date: 28.06.12
  * Time: 11:42
  */
+
+/**
+ * This class handles messages based on stream input and output streams.
+ * A HTTP request is received read form an InputStream and a HTTP Response is written to an OutputStream
+ */
 public class HttpClientMessageStreamProcessor implements IStreamMessageProcessor<HttpResponse, HttpRequest> {
+
+    /**
+     * Encode HTTP response and write to the given OutputStream
+     * @param message HTTP response data
+     * @param out OutputStream
+     * @throws TranscodingException
+     */
     @Override
     public void encode(HttpResponse message, OutputStream out) throws TranscodingException {
         try {
@@ -44,6 +56,13 @@ public class HttpClientMessageStreamProcessor implements IStreamMessageProcessor
         }
     }
 
+    /**
+     * Read data from an InputStream and decode it into a HTTP request
+     * @param message InputStream
+     * @return  HTTP Request object
+     * @throws TranscodingException
+     * @throws SocketException
+     */
     @Override
     public HttpRequest decode(InputStream message) throws TranscodingException, SocketException {
         InputStreamReader reader = new InputStreamReader(message);

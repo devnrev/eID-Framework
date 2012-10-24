@@ -20,6 +20,10 @@ package common.network.http;
  * Date: 20.06.12
  * Time: 15:15
  */
+
+/**
+ * This class extends the basic HTTP message to a HTTP request and provides the required attributes
+ */
 public class HttpRequest extends HttpMessage {
     protected String resourcePath_;
     protected HttpMethod method_;

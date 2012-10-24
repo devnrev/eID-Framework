@@ -20,6 +20,10 @@ package common.exceptions;
  * Date: 06.07.12
  * Time: 16:16
  */
+
+/**
+ * Exception class which indicates transcoding errors
+ */
 public class TranscodingException extends Exception{
     public TranscodingException(String msg){
         super(msg);

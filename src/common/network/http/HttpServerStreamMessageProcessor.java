@@ -32,13 +32,36 @@ import java.util.regex.Pattern;
  * Date: 11.07.12
  * Time: 15:02
  */
+
+/**
+ * HTTP message processor used by a client. It processes incoming HTTP responses and encodes outgoing HTTP requests
+ */
 public class HttpServerStreamMessageProcessor implements IStreamMessageProcessor<HttpRequest, HttpResponse> {
+
+    /**
+     * encode HTTP request and write it to the given OutputStream
+     * @param message HTTP request
+     * @param out OutputStream
+     * @throws TranscodingException
+     */
     @Override
     public void encode(HttpRequest message, OutputStream out) throws TranscodingException {
-        //TODO
-        throw new TranscodingException("not implemented");
+        byte[] bytes = message.getBytes();
+        Logger.log(bytes);
+        Logger.log("");
+        try {
+            out.write(bytes);
+        }catch (IOException e) {
+            throw new TranscodingException("error while sending http request\n" + e.getMessage());
+        }
     }
 
+    /**
+     * Read InputStream and decode it into an HTTP response object
+     * @param message
+     * @return
+     * @throws TranscodingException
+     */
     @Override
     public HttpResponse decode(InputStream message) throws TranscodingException {
         InputStreamReader reader = new InputStreamReader(message);

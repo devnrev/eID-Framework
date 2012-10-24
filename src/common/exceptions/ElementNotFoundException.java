@@ -20,6 +20,10 @@ package common.exceptions;
  * Date: 20.07.12
  * Time: 23:34
  */
+
+/**
+ * Exception class which is thrown when an element is not found
+ */
 public class ElementNotFoundException extends Exception {
     public ElementNotFoundException(String s) {
         super(s);

@@ -23,6 +23,10 @@ import common.network.soap.SoapResponse;
  * Date: 02.07.12
  * Time: 17:32
  */
+
+/**
+ * Basic definition of a PAOS response
+ */
 public class PAOSResponse extends SoapResponse {
 
     public PAOSResponse() throws BuildException {

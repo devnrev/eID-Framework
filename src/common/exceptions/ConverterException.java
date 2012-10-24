@@ -21,6 +21,10 @@ package common.exceptions;
  * Time: 13:45
  * To change this template use File | Settings | File Templates.
  */
+
+/**
+ * Exception class which indicates converting errors
+ */
 public class ConverterException extends Exception {
     public ConverterException(String message) {
         super(message);

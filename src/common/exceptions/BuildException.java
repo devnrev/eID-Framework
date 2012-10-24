@@ -20,6 +20,10 @@ package common.exceptions;
  * Date: 03.07.12
  * Time: 11:32
  */
+
+/**
+ * Exception class which indicates build errors
+ */
 public class BuildException extends Exception {
     public BuildException(String msg){
         super(msg);

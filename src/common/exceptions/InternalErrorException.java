@@ -20,6 +20,10 @@ package common.exceptions;
  * Date: 22.07.12
  * Time: 20:27
  */
+
+/**
+ * Exception class which indicates internal errors
+ */
 public class InternalErrorException extends Exception {
     public InternalErrorException(String s) {
         super(s);

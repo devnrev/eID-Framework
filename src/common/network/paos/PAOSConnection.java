@@ -24,6 +24,11 @@ import eid.network.messages.PaosHttpRequestBuilder;
  * Date: 02.07.12
  * Time: 17:31
  */
+
+/**
+ * This class specializes the remote server connection into a PAOS connection type. Therefor it parametrizes the base
+ * class with special attributes needed to handle PAOS messages
+ */
 public class PAOSConnection extends RemoteServerConnection<PAOSResponse,PAOSRequest> {
 
     public PAOSConnection(IClientSocket clientSocket,String sessionId,String host,String ressourcePath) {

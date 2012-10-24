@@ -27,6 +27,11 @@ import java.util.regex.Pattern;
  * Date: 20.07.12
  * Time: 23:25
  */
+
+/**
+ * This class acts as a filter for nodes. It basically matches if a string appears in a node name.
+ * Dependent on the matching type, the namespace of a node name can be ignored
+ */
 public class NodeNameFilter implements NodeFilter {
 
     private String name_;

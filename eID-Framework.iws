@@ -10,88 +10,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1daf507e-9d55-470a-a7ec-0f2ceb0fa659" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/common/cardio/TerminalAccessTest.java" afterPath="$PROJECT_DIR$/src/common/cardio/test/TerminalAccessTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/exceptions/OperationAbortedException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/http/HttpListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/http/HttpMessageProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/http/HttpRemoteRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/http/HttpRequestData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/http/HttpResponseData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/http/HttpUriParamFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/http/IHttpListenerCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/http/TransmissionData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/http/tests/HttpListenerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/paos/PAOSMessage.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eID-Framework.iws" afterPath="$PROJECT_DIR$/eID-Framework.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CAdapterObj.java" afterPath="$PROJECT_DIR$/src/common/CAdapterObj.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CArrayHelper.java" afterPath="$PROJECT_DIR$/src/common/CArrayHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CConverter.java" afterPath="$PROJECT_DIR$/src/common/CConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CFactory.java" afterPath="$PROJECT_DIR$/src/common/CFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CFactoryHelper.java" afterPath="$PROJECT_DIR$/src/common/CFactoryHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/CMathHelper.java" afterPath="$PROJECT_DIR$/src/common/CMathHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/Globals.java" afterPath="$PROJECT_DIR$/src/common/Globals.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/IAdapter.java" afterPath="$PROJECT_DIR$/src/common/IAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CAPDUCommand.java" afterPath="$PROJECT_DIR$/src/common/cardio/CAPDUCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CAPDUResponse.java" afterPath="$PROJECT_DIR$/src/common/cardio/CAPDUResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CBinaryReadADPUCommand.java" afterPath="$PROJECT_DIR$/src/common/cardio/CBinaryReadADPUCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CCardCommands.java" afterPath="$PROJECT_DIR$/src/common/cardio/CCardCommands.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/CardAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/CardAccess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/ControlCommand.java" afterPath="$PROJECT_DIR$/src/common/cardio/ControlCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/ECardAccessor.java" afterPath="$PROJECT_DIR$/src/common/cardio/ECardAccessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/IAPDUMessageCoding.java" afterPath="$PROJECT_DIR$/src/common/cardio/IAPDUMessageCoding.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/ICardAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/ICardAccess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/ITerminalAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/ITerminalAccess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/Terminal.java" afterPath="$PROJECT_DIR$/src/common/cardio/Terminal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/TerminalAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/TerminalAccess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/coding/CAPDUNormalMessaging.java" afterPath="$PROJECT_DIR$/src/common/cardio/coding/CAPDUNormalMessaging.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/coding/CAPDUSecureMessaging.java" afterPath="$PROJECT_DIR$/src/common/cardio/coding/CAPDUSecureMessaging.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/coding/test/CAPDUSecureMessagingTest.java" afterPath="$PROJECT_DIR$/src/common/cardio/coding/test/CAPDUSecureMessagingTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/cardio/test/CDummyIOAccess.java" afterPath="$PROJECT_DIR$/src/common/cardio/test/CDummyIOAccess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/CPadding.java" afterPath="$PROJECT_DIR$/src/common/crypto/CPadding.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/CryptoTypes.java" afterPath="$PROJECT_DIR$/src/common/crypto/CryptoTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ECryptoProvider.java" afterPath="$PROJECT_DIR$/src/common/crypto/ECryptoProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/EccKeyPair.java" afterPath="$PROJECT_DIR$/src/common/crypto/EccKeyPair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/EcdsaSignature.java" afterPath="$PROJECT_DIR$/src/common/crypto/EcdsaSignature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IASN1EncodableVector.java" afterPath="$PROJECT_DIR$/src/common/crypto/IASN1EncodableVector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ICryptoProvider.java" afterPath="$PROJECT_DIR$/src/common/crypto/ICryptoProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ICryptoSHA.java" afterPath="$PROJECT_DIR$/src/common/crypto/ICryptoSHA.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERApplicationSpecific.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERApplicationSpecific.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDEREncodable.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDEREncodable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERInteger.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERInteger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERObjectIdentifier.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERObjectIdentifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDEROctedString.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDEROctedString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERSequence.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERSequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERSet.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IDERTaggedObject.java" afterPath="$PROJECT_DIR$/src/common/crypto/IDERTaggedObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECCurve.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECCurve.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECCurveFP.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECCurveFP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECFieldElement.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECFieldElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECPoint.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IECPointFP.java" afterPath="$PROJECT_DIR$/src/common/crypto/IECPointFP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IEccKeyGenerator.java" afterPath="$PROJECT_DIR$/src/common/crypto/IEccKeyGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java" afterPath="$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java" afterPath="$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java" afterPath="$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java" afterPath="$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java" afterPath="$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CASN1EncodableVectorBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CASN1EncodableVectorBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CBouncyCryptoProvider.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CBouncyCryptoProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoAESBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoAESBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoCMacBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoCMacBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoSHABC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CCryptoSHABC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERApplicationSpecificBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERApplicationSpecificBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERIntegerBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERIntegerBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERObjectBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERObjectBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERObjectIdentifierBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERObjectIdentifierBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDEROctetStringBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDEROctetStringBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERSequenceBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERSequenceBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERSetBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERSetBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERTaggedObjectBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CDERTaggedObjectBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECCurveBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECCurveBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECCurveFPBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECCurveFPBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECFielElementBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECFielElementBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECFieldElementFPBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECFieldElementFPBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECPointBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECPointBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECPointFPBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CECPointFPBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CEccKeyGeneratorBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CEccKeyGeneratorBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CEcdsaSignerBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CEcdsaSignerBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CRandomNumGenBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CRandomNumGenBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CX9ECParametersBC.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/CX9ECParametersBC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoAESBCTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoAESBCTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoCMacBCTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoCMacBCTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoSHABCTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CCryptoSHABCTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CEcdsaSignerBCTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/bouncycastle/tests/CEcdsaSignerBCTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/crypto/test/CPaddingTest.java" afterPath="$PROJECT_DIR$/src/common/crypto/test/CPaddingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/data/NodeNameFilter.java" afterPath="$PROJECT_DIR$/src/common/data/NodeNameFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/data/XmlAccessor.java" afterPath="$PROJECT_DIR$/src/common/data/XmlAccessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/exceptions/BuildException.java" afterPath="$PROJECT_DIR$/src/common/exceptions/BuildException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/exceptions/CommunicationException.java" afterPath="$PROJECT_DIR$/src/common/exceptions/CommunicationException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/exceptions/ConverterException.java" afterPath="$PROJECT_DIR$/src/common/exceptions/ConverterException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/exceptions/ElementNotFoundException.java" afterPath="$PROJECT_DIR$/src/common/exceptions/ElementNotFoundException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/exceptions/InternalErrorException.java" afterPath="$PROJECT_DIR$/src/common/exceptions/InternalErrorException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/exceptions/ParameterException.java" afterPath="$PROJECT_DIR$/src/common/exceptions/ParameterException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/exceptions/ParsingException.java" afterPath="$PROJECT_DIR$/src/common/exceptions/ParsingException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/exceptions/TranscodingException.java" afterPath="$PROJECT_DIR$/src/common/exceptions/TranscodingException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/IHttpMessageObserver.java" afterPath="$PROJECT_DIR$/src/common/network/IHttpMessageObserver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/http/HttpClientMessageStreamProcessor.java" afterPath="$PROJECT_DIR$/src/common/network/http/HttpClientMessageStreamProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/http/HttpHeader.java" afterPath="$PROJECT_DIR$/src/common/network/http/HttpHeader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/http/HttpMessage.java" afterPath="$PROJECT_DIR$/src/common/network/http/HttpMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/http/HttpRequest.java" afterPath="$PROJECT_DIR$/src/common/network/http/HttpRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/http/HttpResponse.java" afterPath="$PROJECT_DIR$/src/common/network/http/HttpResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/http/HttpServerStreamMessageProcessor.java" afterPath="$PROJECT_DIR$/src/common/network/http/HttpServerStreamMessageProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/http/NetworkClientHttpHandler.java" afterPath="$PROJECT_DIR$/src/common/network/http/NetworkClientHttpHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/messaging/IByteMessageProcessor.java" afterPath="$PROJECT_DIR$/src/common/network/messaging/IByteMessageProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/messaging/IStreamMessageProcessor.java" afterPath="$PROJECT_DIR$/src/common/network/messaging/IStreamMessageProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/paos/PAOSConnection.java" afterPath="$PROJECT_DIR$/src/common/network/paos/PAOSConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/paos/PAOSRequest.java" afterPath="$PROJECT_DIR$/src/common/network/paos/PAOSRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/paos/PAOSResponse.java" afterPath="$PROJECT_DIR$/src/common/network/paos/PAOSResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/paos/PaosMessageParser.java" afterPath="$PROJECT_DIR$/src/common/network/paos/PaosMessageParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java" afterPath="$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java" />
     </list>
     <ignored path="kpdud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -176,8 +131,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -186,91 +141,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IECCurveFP.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECCurveFP.java">
+      <file leaf-file-name="TranscodingException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/exceptions/TranscodingException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="957" selection-end="1010" vertical-scroll-proportion="0.0">
+            <state line="24" column="46" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IEcdsaSigner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java">
+      <file leaf-file-name="PAOSRequest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/network/paos/PAOSRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="82" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+            <state line="27" column="0" selection-start="954" selection-end="999" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IECFieldElementFP.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java">
+      <file leaf-file-name="PAOSResponse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/network/paos/PAOSResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="934" selection-end="1001" vertical-scroll-proportion="0.0">
+            <state line="27" column="38" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IECPoint.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECPoint.java">
+      <file leaf-file-name="PaosToHttpProcessor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="955" selection-end="1008" vertical-scroll-proportion="0.0">
+            <state line="77" column="105" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IECPointFP.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECPointFP.java">
+      <file leaf-file-name="WsPaosResponseMessageBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/network/paos/WsPaosResponseMessageBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="51" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
+            <state line="39" column="20" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IRandomNumGen.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java">
+      <file leaf-file-name="PaosToHttpProcessorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/network/paos/test/PaosToHttpProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="78" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
+            <state line="34" column="13" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISymmetricBlockCipher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java">
+      <file leaf-file-name="SoapMessage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/network/soap/SoapMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="938" selection-end="1019" vertical-scroll-proportion="0.0">
+            <state line="35" column="22" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ISymmetricMAC.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java">
+      <file leaf-file-name="SOAPProcessor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/network/soap/SOAPProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="64" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
+            <state line="39" column="25" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IX9ECParameters.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java">
+      <file leaf-file-name="SoapRequest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/network/soap/SoapRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="995" selection-end="995" vertical-scroll-proportion="0.375">
+            <state line="24" column="13" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IECFieldElement.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/crypto/IECFieldElement.java">
+      <file leaf-file-name="SoapResponse.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/network/soap/SoapResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="932" selection-end="993" vertical-scroll-proportion="0.0">
+            <state line="33" column="104" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.525">
               <folding />
             </state>
           </provider>
@@ -297,22 +252,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/common/crypto/IDEROctedString.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IDERSequence.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IDERSet.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IDERTaggedObject.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IEccKeyGenerator.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IECCurve.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IECCurveFP.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IECFieldElement.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IECPoint.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IECPointFP.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java" />
-        <option value="$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java" />
+        <option value="$PROJECT_DIR$/src/common/data/XmlAccessor.java" />
+        <option value="$PROJECT_DIR$/src/common/exceptions/BuildException.java" />
+        <option value="$PROJECT_DIR$/src/common/exceptions/CommunicationException.java" />
+        <option value="$PROJECT_DIR$/src/common/exceptions/ConverterException.java" />
+        <option value="$PROJECT_DIR$/src/common/exceptions/ElementNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/common/exceptions/InternalErrorException.java" />
+        <option value="$PROJECT_DIR$/src/common/exceptions/OperationAbortedException.java" />
+        <option value="$PROJECT_DIR$/src/common/exceptions/ParameterException.java" />
+        <option value="$PROJECT_DIR$/src/common/exceptions/ParsingException.java" />
+        <option value="$PROJECT_DIR$/src/common/exceptions/TranscodingException.java" />
+        <option value="$PROJECT_DIR$/src/common/network/paos/PAOSConnection.java" />
+        <option value="$PROJECT_DIR$/src/common/network/paos/PAOSMessage.java" />
+        <option value="$PROJECT_DIR$/src/common/network/paos/PaosMessageParser.java" />
+        <option value="$PROJECT_DIR$/src/common/network/paos/PAOSRequest.java" />
+        <option value="$PROJECT_DIR$/src/common/network/paos/PAOSResponse.java" />
+        <option value="$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java" />
       </list>
     </option>
   </component>
@@ -484,16 +439,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="250" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="OverrideImplement.combined" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="259" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="256" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="256" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="263" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1055" />
@@ -508,8 +463,8 @@
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
@@ -517,8 +472,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -711,6 +666,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -737,24 +710,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -1090,7 +1045,11 @@
       <created>1350492151659</created>
       <updated>1350492151659</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="- added general javadoc to common classes">
+      <created>1351027146971</created>
+      <updated>1351027146971</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1121,6 +1080,7 @@
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31217483" sideWeight="0.9967949" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.106303416" sideWeight="0.71904266" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26118627" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39229968" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36404833" sideWeight="0.37428162" order="12" side_tool="true" content_ui="tabs" />
@@ -1140,7 +1100,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37044746" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39875388" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1181,7 +1140,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- HTTP host attribute now correctly set" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added general javadoc to common classes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1194,7 +1153,6 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="- refactored eIDProcess -&gt; easier integration of protocol steps in between of StartPAOS and StartPAOSResponse&#10;- several fixes which made terminal authentication partially working" />
     <MESSAGE value="- Terminal authentication works till signature of eID Server is needed&#10;- 3rd optional DIDAuthenticate step implemented, which receives the signature" />
     <MESSAGE value="- Terminal Authentication works now most of the times --&gt; need to investigate why some signatures cause APDU response 63 00" />
     <MESSAGE value="- Chip Authentication successful" />
@@ -1219,6 +1177,7 @@
     <MESSAGE value="- fixed parsing of server address" />
     <MESSAGE value="- added support for old authentication requests from AusweisApp browser plugin" />
     <MESSAGE value="- HTTP host attribute now correctly set" />
+    <MESSAGE value="- added general javadoc to common classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1228,114 +1187,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IDEROctedString.java">
+    <entry file="file://$PROJECT_DIR$/src/common/exceptions/ElementNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="932" selection-end="989" vertical-scroll-proportion="0.0">
+        <state line="24" column="63" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IDERSequence.java">
+    <entry file="file://$PROJECT_DIR$/src/common/exceptions/InternalErrorException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="60" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+        <state line="24" column="43" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IDERSet.java">
+    <entry file="file://$PROJECT_DIR$/src/common/exceptions/ParameterException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="40" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
+        <state line="24" column="68" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IDERTaggedObject.java">
+    <entry file="file://$PROJECT_DIR$/src/common/exceptions/ParsingException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="50" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+        <state line="24" column="42" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IEccKeyGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/paos/PAOSConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="45" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0">
+        <state line="29" column="63" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECCurve.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/paos/PaosMessageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="925" selection-end="972" vertical-scroll-proportion="0.0">
+        <state line="34" column="69" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECCurveFP.java">
+    <entry file="file://$PROJECT_DIR$/src/common/exceptions/TranscodingException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="957" selection-end="1010" vertical-scroll-proportion="0.0">
+        <state line="24" column="46" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IEcdsaSigner.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/paos/PAOSRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="82" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+        <state line="27" column="0" selection-start="954" selection-end="999" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECFieldElement.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/paos/PAOSResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="932" selection-end="993" vertical-scroll-proportion="0.0">
+        <state line="27" column="38" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECFieldElementFP.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/paos/PaosToHttpProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="934" selection-end="1001" vertical-scroll-proportion="0.0">
+        <state line="77" column="105" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECPoint.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/paos/WsPaosResponseMessageBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="955" selection-end="1008" vertical-scroll-proportion="0.0">
+        <state line="39" column="20" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IECPointFP.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/paos/test/PaosToHttpProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="51" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
+        <state line="34" column="13" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IRandomNumGen.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/soap/SoapMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="78" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
+        <state line="35" column="22" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/ISymmetricBlockCipher.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/soap/SOAPProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="938" selection-end="1019" vertical-scroll-proportion="0.0">
+        <state line="39" column="25" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/ISymmetricMAC.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/soap/SoapRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="64" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0">
+        <state line="24" column="13" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/crypto/IX9ECParameters.java">
+    <entry file="file://$PROJECT_DIR$/src/common/network/soap/SoapResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="995" selection-end="995" vertical-scroll-proportion="0.375">
+        <state line="33" column="104" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.525">
           <folding />
         </state>
       </provider>

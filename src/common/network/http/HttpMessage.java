@@ -24,6 +24,10 @@ import javax.xml.bind.DatatypeConverter;
  * Date: 20.06.12
  * Time: 15:14
  */
+
+/**
+ * Abstract class defining a basic HTTP message
+ */
 public abstract class HttpMessage {
     protected String initialLine;
     protected HttpHeader header_;

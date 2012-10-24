@@ -23,6 +23,11 @@ import common.network.soap.SoapRequest;
  * Date: 02.07.12
  * Time: 17:33
  */
+
+
+/**
+ * Basic definition of a PAOS request
+ */
 public class PAOSRequest extends SoapRequest {
 
     public PAOSRequest() throws BuildException {

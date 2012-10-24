@@ -29,6 +29,10 @@ import java.net.SocketException;
  * Date: 29.05.12
  * Time: 16:09
  */
+
+/**
+ * This class handles data received from a server via a socket connection
+ */
 public class NetworkClientHttpHandler extends Thread {
     private IHttpMessageObserver objectToNotify_;
     private Socket clientSocket_;
@@ -65,9 +69,11 @@ public class NetworkClientHttpHandler extends Thread {
             } catch (IOException e) {
                 Logger.log("Error during reading input stream from client");
                // e.printStackTrace();
+
             } catch (TranscodingException e) {
                 Logger.log("Error during reading input stream from client");
                 //e.printStackTrace();
+
             }
         }
     }

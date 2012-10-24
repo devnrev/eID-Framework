@@ -20,6 +20,10 @@ package common.exceptions;
  * Date: 20.07.12
  * Time: 14:50
  */
+
+/**
+ * Exception class which indicates parsing errors
+ */
 public class ParsingException extends Exception {
     public ParsingException(String msg){
         super(msg);

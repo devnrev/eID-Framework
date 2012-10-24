@@ -26,6 +26,12 @@ import java.net.SocketException;
  * Date: 21.06.12
  * Time: 13:12
  */
+
+/**
+ * Generic interface which defines methods to encode data into an OutputStream and decode data from an InputStream
+ * @param <P> Data type of the outgoing message
+ * @param <R> Data type of the incoming message
+ */
 public interface IStreamMessageProcessor<P,R>{
     void encode(P message,OutputStream out) throws TranscodingException;
     R decode(InputStream message) throws TranscodingException, SocketException;

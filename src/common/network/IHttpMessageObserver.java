@@ -16,7 +16,6 @@ package common.network;
 
 import common.network.http.HttpRequest;
 import common.network.http.HttpResponse;
-import common.network.http.TransmissionData;
 
 /**
  * Created with IntelliJ IDEA.

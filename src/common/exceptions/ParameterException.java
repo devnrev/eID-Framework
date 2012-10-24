@@ -20,6 +20,10 @@ package common.exceptions;
  * Date: 27.07.12
  * Time: 14:28
  */
+
+/**
+ * Exception class which indicates when invalid parameters were used
+ */
 public class ParameterException extends Exception {
     public ParameterException(String s) {
         super(s);

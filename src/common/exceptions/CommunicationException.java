@@ -20,6 +20,10 @@ package common.exceptions;
  * Date: 26.07.12
  * Time: 14:16
  */
+
+/**
+ * Exception class which indicates communication errors
+ */
 public class CommunicationException extends Exception {
     public CommunicationException(String s) {
         super(s);

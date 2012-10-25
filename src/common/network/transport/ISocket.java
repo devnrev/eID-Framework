@@ -24,9 +24,16 @@ import java.io.OutputStream;
  * Date: 30.05.12
  * Time: 09:59
  */
+
+/**
+ * Interface descibing a socket
+ */
 public interface ISocket {
     InputStream getInputStream() throws IOException;
     OutputStream getOutputStream() throws IOException;
 }
 
+/**
+ * Specific exception for socket errors
+ */
 class SocketException extends Exception {}

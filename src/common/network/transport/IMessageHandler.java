@@ -20,6 +20,12 @@ package common.network.transport;
  * Date: 28.06.12
  * Time: 11:20
  */
+
+/**
+ * Message handler interface
+ * @param <P> Response type
+ * @param <R> Request type
+ */
 public interface IMessageHandler<P, R> {
     P handle(R message);
 }

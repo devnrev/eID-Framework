@@ -23,6 +23,11 @@ import common.exceptions.TranscodingException;
  * Date: 09.07.12
  * Time: 11:50
  */
+
+/**
+ * Helper class which returns a enum value for a given string
+ * @param <T> Enum type
+ */
 public class EnumHelper<T extends Enum<T>> {
     public T getEnumValue(Class<T> enu,String val) throws ElementNotFoundException {
         for(T e : enu.getEnumConstants() ){

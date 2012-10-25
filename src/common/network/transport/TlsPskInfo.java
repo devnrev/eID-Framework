@@ -22,6 +22,10 @@ import org.bouncycastle.crypto.tls.TlsPSKIdentity;
  * Date: 20.06.12
  * Time: 16:45
  */
+
+/**
+ * Value class containing information about the TLS pre shared key and it's identity
+ */
 public class TlsPskInfo implements TlsPSKIdentity {
     private byte[] psk_;
     private byte[] pskIdentity_;

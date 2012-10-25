@@ -31,6 +31,10 @@ import java.net.Socket;
  * Date: 20.06.12
  * Time: 16:24
  */
+
+/**
+ * TLS client socket implementation based on the BouncyCastle crypto library
+ */
 public class PskTlsClientSocket implements IClientSocket {
     private Socket socket_;
     private TlsProtocolHandler tlsHandler_;

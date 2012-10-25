@@ -25,6 +25,13 @@ import java.io.*;
  * Date: 20.06.12
  * Time: 15:06
  */
+
+/**
+ * Class which represents a generic skeleton for sending messages to a server over a client socket.
+ * Messages are send and received using output and input streams
+ * @param <P>
+ * @param <R>
+ */
 public class RemoteServerConnection<P, R> {
 
     protected IStreamMessageProcessor<P, R> streamMessageProcessor_;

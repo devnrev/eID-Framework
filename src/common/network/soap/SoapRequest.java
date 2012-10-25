@@ -22,6 +22,10 @@ import common.exceptions.BuildException;
  * Date: 08.08.12
  * Time: 14:59
  */
+
+/**
+ * This class defines a SOAP request
+ */
 public class SoapRequest extends SoapMessage {
 
 

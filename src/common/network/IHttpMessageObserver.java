@@ -23,6 +23,10 @@ import common.network.http.HttpResponse;
  * Date: 29.05.12
  * Time: 14:33
  */
+
+/**
+ * Interface a class should implement if it wants to receive HTTP requests
+ */
 public interface IHttpMessageObserver {
     HttpResponse update(HttpRequest request);
 }

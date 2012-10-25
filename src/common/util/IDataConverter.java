@@ -22,6 +22,12 @@ import common.exceptions.BuildException;
  * Date: 06.07.12
  * Time: 15:22
  */
+
+/**
+ * Generic data conversion interface
+ * @param <T> Source type
+ * @param <E> Target type
+ */
 public interface IDataConverter<T,E> {
     E convert(T data) throws BuildException;
 }

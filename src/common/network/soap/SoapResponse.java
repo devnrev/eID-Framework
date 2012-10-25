@@ -22,8 +22,11 @@ import common.exceptions.BuildException;
  * Date: 04.07.12
  * Time: 14:00
  */
-public class SoapResponse extends SoapMessage {
 
+/**
+ * This class defines a SOAP response
+ */
+public class SoapResponse extends SoapMessage {
 
     public SoapResponse() throws BuildException {
         super();

@@ -26,6 +26,19 @@ import java.io.IOException;
  * Date: 28.06.12
  * Time: 10:54
  */
+
+/**
+ * This generic class
+ * @param <P>
+ * @param <R>
+ */
+
+/**
+ * Handler to process incoming messages from a client over a socket connection
+ * @param <P> Response type
+ * @param <R> Request type
+ */
+
 public class ClientConnectionHandler<P, R> implements Runnable {
     protected IStreamMessageProcessor<P, R> messageProcessor_;
     protected IClientSocket clientSocket_;

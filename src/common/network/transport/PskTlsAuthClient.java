@@ -25,6 +25,10 @@ import java.io.IOException;
  * Date: 22.06.12
  * Time: 11:34
  */
+
+/**
+ * Logging class, without any real function
+ */
 public class PskTlsAuthClient extends PSKTlsClient {
     private TlsAuthentication tlsAuthentication_;
 

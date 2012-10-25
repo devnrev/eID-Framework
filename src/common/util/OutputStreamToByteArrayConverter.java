@@ -24,6 +24,10 @@ import java.io.ByteArrayOutputStream;
  * Date: 06.07.12
  * Time: 15:21
  */
+
+/**
+ * Class which converts any OutputStreamResult input into a byte array
+ */
 public class OutputStreamToByteArrayConverter implements IDataConverter<IOutputStreamResult,byte[]> {
 
     @Override

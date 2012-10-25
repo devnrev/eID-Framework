@@ -26,6 +26,12 @@ import java.util.List;
  * Date: 28.06.12
  * Time: 10:47
  */
+
+/**
+ * Generic class which is used to accept clients on a server socket and assign them to a specific handler
+ * @param <P> Response type
+ * @param <R> Request type
+ */
 public class RemoteClientConnection<P,R> implements Runnable{
     protected IServerSocket serverSocket_;
     protected IStreamMessageProcessor<P,R> messageProcessor_;

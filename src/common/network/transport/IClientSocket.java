@@ -20,6 +20,10 @@ package common.network.transport;
  * Date: 30.05.12
  * Time: 10:04
  */
+
+/**
+ * Client socket interface
+ */
 public interface IClientSocket extends ISocket{
     boolean connect(String address,int port);
     void disconnect();

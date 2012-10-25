@@ -25,6 +25,10 @@ import java.net.ServerSocket;
  * Date: 30.05.12
  * Time: 10:18
  */
+
+/**
+ * Basic server socket which can be opened on specific port
+ */
 public class NormalServerSocket implements IServerSocket {
     protected ServerSocket socket_;
     protected int port_;

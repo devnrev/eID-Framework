@@ -22,6 +22,10 @@ import java.io.IOException;
  * Date: 21.06.12
  * Time: 16:48
  */
+
+/**
+ * Simple logger class
+ */
 public class Logger {
 
     public static void log(byte[] bytes){

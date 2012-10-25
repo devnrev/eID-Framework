@@ -22,6 +22,10 @@ import java.io.IOException;
  * Date: 30.05.12
  * Time: 10:05
  */
+
+/**
+ * Interface describing a server socket
+ */
 public interface IServerSocket {
     boolean setup(int port);
     void close();

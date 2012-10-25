@@ -32,6 +32,11 @@ import java.util.List;
  * Date: 29.05.12
  * Time: 14:25
  */
+
+/**
+ * This class provides a basic HTTP web server implementation based on a server socket.
+ * Every client is handled in a separate thread by its own handler.
+ */
 public class NetworkHttpServer implements Runnable{
     private int port_;
     private boolean run_;

@@ -25,6 +25,11 @@ import java.net.Socket;
  * Date: 30.05.12
  * Time: 10:01
  */
+
+/**
+ * Abstract client socket implementation
+ * @param <T> Socket type
+ */
 abstract class PlainClientSocket<T extends Socket> implements ISocket {
     protected T socket_;
 

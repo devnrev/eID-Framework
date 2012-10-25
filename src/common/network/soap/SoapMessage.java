@@ -33,6 +33,10 @@ import java.io.OutputStream;
  * Date: 04.07.12
  * Time: 13:57
  */
+
+/**
+ * Abstract class which represents a basic SOAP message
+ */
 public abstract class SoapMessage implements IOutputStreamResult{
     protected SOAPMessage message_;
 

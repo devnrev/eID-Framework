@@ -24,6 +24,10 @@ import java.io.OutputStream;
  * Date: 06.07.12
  * Time: 15:16
  */
+
+/**
+ * Interface describing a method which should be implemented when a result is written to an OutputStream
+ */
 public interface IOutputStreamResult {
     void writeTo(OutputStream out) throws BuildException;
 }

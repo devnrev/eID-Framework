@@ -26,6 +26,10 @@ import java.net.Socket;
  * Date: 30.05.12
  * Time: 10:06
  */
+
+/**
+ * Implementation of a client socket which can connect to a specific port and host address
+ */
 public class NormalClientSocket extends PlainClientSocket<Socket> implements IClientSocket{
     private String address_;
     private int port_;

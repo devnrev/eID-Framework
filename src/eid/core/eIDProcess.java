@@ -656,6 +656,10 @@ public class eIDProcess extends Thread implements IStateContext {
             }
             hostApplication_.notify(new AuthenticationProgressEvent(
                     AuthenticationProgressEvent.AuthProgress.FINISHED));
+            /**
+             * TODO: open refresh address. currently not done since some eServices refresh automatically.
+             */
+
             return getResponse(data.getResultType());
         }
 

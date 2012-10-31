@@ -5,37 +5,14 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="kpdud:jar" />
+      <artifact name="eID-Framework:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1daf507e-9d55-470a-a7ec-0f2ceb0fa659" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/soap/SOAPProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/common/network/transport/IRemoteConnection.java" afterPath="" />
+    <list default="true" id="1daf507e-9d55-470a-a7ec-0f2ceb0fa659" name="Default" comment="- deleted unused files&#10;- added further documentation">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eID-Framework.ipr" afterPath="$PROJECT_DIR$/eID-Framework.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eID-Framework.iws" afterPath="$PROJECT_DIR$/eID-Framework.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/IHttpMessageObserver.java" afterPath="$PROJECT_DIR$/src/common/network/IHttpMessageObserver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/soap/SoapMessage.java" afterPath="$PROJECT_DIR$/src/common/network/soap/SoapMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/soap/SoapRequest.java" afterPath="$PROJECT_DIR$/src/common/network/soap/SoapRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/soap/SoapResponse.java" afterPath="$PROJECT_DIR$/src/common/network/soap/SoapResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/ClientConnectionHandler.java" afterPath="$PROJECT_DIR$/src/common/network/transport/ClientConnectionHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/IClientSocket.java" afterPath="$PROJECT_DIR$/src/common/network/transport/IClientSocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/IMessageHandler.java" afterPath="$PROJECT_DIR$/src/common/network/transport/IMessageHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/IServerSocket.java" afterPath="$PROJECT_DIR$/src/common/network/transport/IServerSocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/ISocket.java" afterPath="$PROJECT_DIR$/src/common/network/transport/ISocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/NetworkHttpServer.java" afterPath="$PROJECT_DIR$/src/common/network/transport/NetworkHttpServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/NormalClientSocket.java" afterPath="$PROJECT_DIR$/src/common/network/transport/NormalClientSocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/NormalServerSocket.java" afterPath="$PROJECT_DIR$/src/common/network/transport/NormalServerSocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/PlainClientSocket.java" afterPath="$PROJECT_DIR$/src/common/network/transport/PlainClientSocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/PskTlsAuthClient.java" afterPath="$PROJECT_DIR$/src/common/network/transport/PskTlsAuthClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/PskTlsClientSocket.java" afterPath="$PROJECT_DIR$/src/common/network/transport/PskTlsClientSocket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/RemoteClientConnection.java" afterPath="$PROJECT_DIR$/src/common/network/transport/RemoteClientConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/RemoteServerConnection.java" afterPath="$PROJECT_DIR$/src/common/network/transport/RemoteServerConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/network/transport/TlsPskInfo.java" afterPath="$PROJECT_DIR$/src/common/network/transport/TlsPskInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/util/EnumHelper.java" afterPath="$PROJECT_DIR$/src/common/util/EnumHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/util/IDataConverter.java" afterPath="$PROJECT_DIR$/src/common/util/IDataConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/util/IOutputStreamResult.java" afterPath="$PROJECT_DIR$/src/common/util/IOutputStreamResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/util/Logger.java" afterPath="$PROJECT_DIR$/src/common/util/Logger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/util/OutputStreamToByteArrayConverter.java" afterPath="$PROJECT_DIR$/src/common/util/OutputStreamToByteArrayConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/eid/core/eIDProcess.java" afterPath="$PROJECT_DIR$/src/eid/core/eIDProcess.java" />
     </list>
     <ignored path="kpdud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,24 +107,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IDataConverter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/util/IDataConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="25" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/util/Logger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IOutputStreamResult.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/util/IOutputStreamResult.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,10 +125,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eIDFramework.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="eIDFramework.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eIDFramework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="41" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.675">
+            <state line="50" column="23" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eIDProcess.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eid/core/eIDProcess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="545" column="150" selection-start="19942" selection-end="19942" vertical-scroll-proportion="0.97">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TcTokenData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eid/network/data/TcTokenData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="13" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -241,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/common/network/transport/IServerSocket.java" />
         <option value="$PROJECT_DIR$/src/common/network/transport/ISocket.java" />
         <option value="$PROJECT_DIR$/src/common/network/transport/NetworkHttpServer.java" />
         <option value="$PROJECT_DIR$/src/common/network/transport/NormalClientSocket.java" />
@@ -257,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/common/util/Logger.java" />
         <option value="$PROJECT_DIR$/src/common/util/IOutputStreamResult.java" />
         <option value="$PROJECT_DIR$/src/common/util/OutputStreamToByteArrayConverter.java" />
+        <option value="$PROJECT_DIR$/src/eid/core/eIDProcess.java" />
       </list>
     </option>
   </component>
@@ -316,16 +293,12 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="eID-Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eID-Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -340,12 +313,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="eID-Framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eID-Framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -353,7 +330,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="250" />
     <property name="project.structure.proportion" value="0.15" />
@@ -968,7 +945,11 @@
       <created>1351115166067</created>
       <updated>1351115166067</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="- deleted unused files&#10;- added further documentation">
+      <created>1351195107278</created>
+      <updated>1351195107278</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -1106,114 +1087,88 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/common/network/transport/TlsPskInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="54" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/network/IHttpMessageObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="30" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/CFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="13" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/CMathHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="13" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/Globals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="13" selection-start="974" selection-end="974" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/IAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="17" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/IStateContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/IState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/CArrayHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/CAdapterObj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/util/EnumHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="17" selection-start="964" selection-end="964" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/util/IDataConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="25" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="25" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/util/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="26" column="16" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/util/IOutputStreamResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="33" column="24" selection-start="1155" selection-end="1155" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/util/OutputStreamToByteArrayConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="51" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="51" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/CArrayHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/CAdapterObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/util/EnumHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="23" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/IStateContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/IState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eIDFramework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="41" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.675">
+        <state line="50" column="23" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eid/network/data/TcTokenData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eid/core/eIDProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="545" column="150" selection-start="19942" selection-end="19942" vertical-scroll-proportion="0.97">
           <folding />
         </state>
       </provider>
